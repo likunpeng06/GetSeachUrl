@@ -52,7 +52,7 @@ public class ClientBaiduTest extends TestCase{
 
         String path ="D:\\Tools\\Struts2016\\strutskey.txt";
         //clientBaidu.getKeyListInFile(path);
-        for (int j = 0 ; j < clientBaidu.keyList.size(); j++){
+        /*for (int j = 0 ; j < clientBaidu.keyList.size(); j++){
             int i = 0;
             while (true){
                 System.out.println("第"+(i+1)+"面:");
@@ -69,13 +69,13 @@ public class ClientBaiduTest extends TestCase{
                     break;
                 }
             }
-        }
+        }*/
 
-        System.out.println("连接获取完毕!");
+        /*System.out.println("连接获取完毕!");
         System.out.println("将连接存入文件中!");
         File file = new File("D://logs//urls2.txt");
         IOUtils.toFileWithLine(file,clientBaidu.list);
-        System.out.println("存入成功!");
+        System.out.println("存入成功!");*/
     }
 
     public void test_File2Line(){
